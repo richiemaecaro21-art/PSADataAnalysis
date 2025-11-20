@@ -36,14 +36,14 @@ import numpy as np
 # Underemployment
 max_under_idx = np.argmax(under_values)
 min_under_idx = np.argmin(under_values)
-print(f"📈 Underemployment peaked in {months[max_under_idx]} with {under_values[max_under_idx]} thousand persons.")
-print(f"📉 Underemployment was lowest in {months[min_under_idx]} with {under_values[min_under_idx]} thousand persons.")
+print(f" Underemployment peaked in {months[max_under_idx]} with {under_values[max_under_idx]} thousand persons.")
+print(f" Underemployment was lowest in {months[min_under_idx]} with {under_values[min_under_idx]} thousand persons.")
 
 # Unemployment
 max_unemp_idx = np.argmax(unemp_values)
 min_unemp_idx = np.argmin(unemp_values)
-print(f"📈 Unemployment peaked in {months[max_unemp_idx]} with {unemp_values[max_unemp_idx]} thousand persons.")
-print(f"📉 Unemployment was lowest in {months[min_unemp_idx]} with {unemp_values[min_unemp_idx]} thousand persons.")
+print(f" Unemployment peaked in {months[max_unemp_idx]} with {unemp_values[max_unemp_idx]} thousand persons.")
+print(f"Unemployment was lowest in {months[min_unemp_idx]} with {unemp_values[min_unemp_idx]} thousand persons.")
 
 print("\nControversial Question Answer:") 
 
