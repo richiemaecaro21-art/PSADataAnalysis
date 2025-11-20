@@ -26,7 +26,7 @@ data.to_csv("cleaned_unemployment_underemployment_2025.csv", index=False)
 
 print("\nAfter cleaning:")
 print(data.head())
-print("\n✅ Cleaned data saved as 'cleaned_unemployment_underemployment_2025.csv'")
+print("\n Cleaned data saved as 'cleaned_unemployment_underemployment_2025.csv'")
 
 
 
